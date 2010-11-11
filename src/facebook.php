@@ -682,7 +682,7 @@ class Facebook
     // environment
     // @codeCoverageIgnoreStart
     } else {
-      setcookie($cookieName, $value, $expires, '/', $domain);
+      setrawcookie($cookieName, $value, $expires, '/', $domain);
     }
     // @codeCoverageIgnoreEnd
   }
